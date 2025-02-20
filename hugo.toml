@@ -46,8 +46,8 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
 [params]
 
-  title = 'Ivo Pascal'
-  description = 'Your website description'
+  title = 'Ivo Pascal de Jong'
+  description = 'Lecturer & PhD student - Uncertainty in Machine Learning & Brain-Computer Interfaces'
   sections = ["showcase"]
 
   # If you want to display an image logo in the header, you can add it here
@@ -152,10 +152,10 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 [params.colorTheme]
 
 ## the following configuration would disable automatic theme selection
-#  [params.colorTheme.auto]
-#    disable = true
-#  [params.colorTheme.forced]
-#    theme = "dark"
+ # [params.colorTheme.auto]
+ #  disable = true
+ # [params.colorTheme.forced]
+ #  theme = "light"
 
 ## the following parameter will disable theme override in the footer
 #  [params.colorTheme.selector.disable]
