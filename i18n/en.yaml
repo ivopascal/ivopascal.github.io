@@ -22,7 +22,7 @@
   translation: "de Jong"
 
 - id: "nav_home"
-  translation: "Home"
+  translation: "HOME"
 
 ## General
 - id: "skipToMainContent"
@@ -106,7 +106,7 @@
   translation: "Research"
 
 - id: "experience_description"
-  translation: "<p>I'm interested in how Machine Learning methods behave when subjected to the reality of datasets that are often noisy, sparse or otherwise non-ideal. 
+  translation: "<p class='lead'>I'm interested in how Machine Learning methods behave when subjected to the reality of datasets that are often noisy, sparse or otherwise non-ideal. 
     The research I do on Uncertainty in Machine Learning is therefore largely focused on empirical experiments where data's and algorithms interact. I'm specifically interested in distinguishing between <b>data uncertainty</b> and <b>model uncertainty</b> in Deep Learning.
     <br>
     For Brain-Computer Interfaces I'm interested in applying these Uncertain Machine Learning methods and seeing whether they give meaningful benefits to researcher or users.

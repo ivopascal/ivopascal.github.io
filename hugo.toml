@@ -52,7 +52,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
   # If you want to display an image logo in the header, you can add it here
   # logo = '/img/hugo.svg'
-  homepageExperienceCount = 6
+  homepageExperienceCount = 4
 
   [params.analytics]
   ## Analytics parameters.
@@ -97,24 +97,20 @@ path="github.com/zetxek/adritian-free-hugo-theme"
       #   name = 'About'
       #   URL = '#about'
       #   weight = 2
-      # [[languages.en.menus.header]]
-      #  name = 'Research'
-      #  URL = '#Research'
-      #  weight = 3
       [[languages.en.menus.header]]
         name = "Research"
-        URL = "#experience"
-        weight = 4
+        URL = "#research"
+        weight = 3
 
       # [[languages.en.menus.header]]
       #   name = "Contact"
       #   URL = "#contact"
       #   weight = 6
 
-      # [[languages.en.menus.footer]]
-      #   name = "About"
-      #   URL = "#about"
-      #   weight = 2
+      [[languages.en.menus.footer]]
+        name = "Experience"
+        URL = "#experience"
+        weight = 2
 
       # [[languages.en.menus.footer]]
       #   name = "Portfolio"
