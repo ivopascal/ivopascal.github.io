@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "ivopascal.com"
 languageCode = "en"
 
 [module]
@@ -161,7 +161,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 [params.colorTheme.selector.disable]
   footer = true
   header = true
-  
+
 
 ## by default we allow override AND automatic selection
 
