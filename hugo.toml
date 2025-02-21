@@ -48,7 +48,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
   title = 'Ivo Pascal de Jong'
   description = 'Lecturer & PhD student - Uncertainty in Machine Learning & Brain-Computer Interfaces'
-  sections = ["showcase"]
+  sections = ["showcase", "experience"]
 
   # If you want to display an image logo in the header, you can add it here
   # logo = '/img/hugo.svg'
@@ -81,7 +81,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     enable = true
 
 [params.languages.selector.disable]
-  footer = false
+  footer = true
 
 [languages]
   [languages.en]
@@ -101,10 +101,10 @@ path="github.com/zetxek/adritian-free-hugo-theme"
       #  name = 'Research'
       #  URL = '#Research'
       #  weight = 3
-      #  [[languages.en.menus.header]]
-      #  name = "Experience"
-      #  URL = "#experience"
-      #  weight = 4
+      [[languages.en.menus.header]]
+        name = "Research"
+        URL = "#experience"
+        weight = 4
 
       # [[languages.en.menus.header]]
       #   name = "Contact"
@@ -152,15 +152,16 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 [params.colorTheme]
 
 ## the following configuration would disable automatic theme selection
- # [params.colorTheme.auto]
- #  disable = true
- # [params.colorTheme.forced]
- #  theme = "light"
+ [params.colorTheme.auto]
+  disable = true
+ [params.colorTheme.forced]
+  theme = "light"
 
 ## the following parameter will disable theme override in the footer
-#  [params.colorTheme.selector.disable]
-#  footer = true
-
+[params.colorTheme.selector.disable]
+  footer = true
+  header = true
+  
 
 ## by default we allow override AND automatic selection
 
