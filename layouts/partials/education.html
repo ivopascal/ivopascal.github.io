@@ -1,0 +1,33 @@
+{{ if .Site.Data.homepage.education.enable }}
+<section id="education" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ i18n "education_title" }}</h2>
+                 <p class="lead" >A core principal in my teaching concerns enabling students to develop their interests and skills. By supporting students in following up on their own ideas we can cultivate a critical research interest. This additionally instills confidence and offers a more thorough comprehension of the topic.
+                <br>
+                I teach in various courses in the AI and Computational Cognitive Science curricula. My teaching is primarily focused on various Machine Learing courses and courses related to Brain-Computer Interfaces, but also includes Cognitive Modelling with ACT-R. 
+                <br>
+
+                My main pride is the Applied Machine Learning course (previously Machine Learning Practical), which I developed and teach myself. In this course students select a Machine Learning-based project, and develop this throughout the course. This gives them hands-on learning and allows them to develop in a direction of their interest. The course is open-ended, but students are specifically encouraged to learn the skills to prepare them to be AI-professionals. The lecture content I teach in this course is designed by considering my own experience as a student and later AI-professional and seeing what information I missed when I entered the labour market. By relating the educational material to my experience as an AI-professional students clearly see the relevance and what they want to study.
+
+                 </p>
+
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.education.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education" style="">
+                            <div class="education__date">{{ .year }}</div>
+                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__degree">
+                                {{ .degree }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
