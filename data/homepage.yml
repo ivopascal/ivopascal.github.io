@@ -38,21 +38,53 @@ about:
 education:
   enable: true
   items:
-    - university: "University of Life"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Applied Machine Learning"
+      year: "2023 - 2025"
+      degree: "Design and develop the course setup and material, supervise teaching-assistants and teach lectures."
 
-    - university: "High School of Hard Knocks"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "Trustworthy & Explainable AI"
+      year: "2024 - 2025"
+      degree: "Develop and teach hands-on tutorial sessions."
+
+    - university: "Architectures of Intelligence"
+      year: "2024 - 2025"
+      degree: "Coordinate Teaching Assistants to ensure assignments are taught, graded and discussed."
+
+    - university: "Uncertainty in Machine Learning"
+      year: "2024"
+      degree: "Design and teach programming tutorial sessions aimed at implementing Uncertainty Quantification methods."
+
+    - university: "Neuroprosthetics"
+      year: "2024 - 2025"
+      degree: "Co-design, develop and conduct assessment."
+
+    - university: "Non-Invasive Brain-Computer Interfaces"
+      year: "2023 - 2025"
+      degree: "Support practicals and BCI-experiments."
+
+    - university: "Cognitive Modelling Summer School"
+      year: "2023 - 2024"
+      degree: "Support visiting PhD students and researchers in learning about ACT-R."
+
+    - university: "Guest Lectures"
+      year: "2022-2025"
+      degree: "Various guest or substitute lectures for Introduction to Machine Learning, Uncertainty in Machine Learning, Non-Invasive Brain-Computer Interfaces, Deep Learning, Deep Learning for Forestry, Machine Learning for Computational Cognitive Science, ..."
+
+    - university: "Python for Finance (Hogeschool van Amsterdam)"
+      year: "2022"
+      degree: "Develop course material, train other teachers, and teach students."
+
+    - university: "SQL for Finance (Hogeschool van Amsterdam)"
+      year: "2022"
+      degree: "Design and develop course material and exam."
 
 # experience
 ## to hiden a button, set the icon to an empty string
 experience:
   enable: true
   button:
-    enable: false
-    icon: "icon-linkedin"
+    enable: true
+    icon: "icon-email"
     ## the url and text are localized, fill them in the i18n file
     ## keys: experience_button, experience_button_url
   button2:

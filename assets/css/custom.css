@@ -1,0 +1,12 @@
+.education::before {
+    content: "Hello!";
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 0px !important;
+    height: 100%;
+    z-index: 1;
+    background-color: #000 !important;
+    -webkit-transform: skew(-20deg);
+    transform: skew(-13deg);
+}

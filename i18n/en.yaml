@@ -99,7 +99,7 @@
 
 ## Homepage education
 - id: "education_title"
-  translation: "Education"
+  translation: "Teaching"
 
 ## Homepage experience
 - id: "experience_title"
@@ -114,13 +114,28 @@
     <br>
     I've selected some highlighted papers on the left. All publications are freely available as Open Access, just click the link.
     </p>
+    <h3> Collaboration & Supervision</h2>
+    <p class='lead'>
+    Interesting research comes from sharing interesting ideas, and many of my papers come from supervising excellent students or collaborating with excellent researchers.
+    I am currently open to collaborations with:
+    </p>
+
+    <ul class='lead'>
+      <li> Bachelor or Master students looking to do a research project. 
+      <li> Businesses interested in internship projects or with an interesting research problem. 
+      <li> Researchers looking to work with (uncertain) Machine Learning or Brain-Computer Interfaces.
+      <li> Educators interested in AI.
+    </ul>
+    <p class='lead'>
+    If you're considering working with me, feel free to reach out.
+    </p>
     "
 
 - id: "experience_button"
-  translation: "LinkedIn" 
+  translation: "Get in touch!" 
 
 - id: "experience_button_url"
-  translation: "https://www.linkedin.com/in/adrianmoreno/"
+  translation: "mailto:ivo.de.jong@rug.nl"
 
 - id: "experience_button2"
   translation: "Download resume"
