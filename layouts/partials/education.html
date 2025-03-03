@@ -1,17 +1,53 @@
 {{ if .Site.Data.homepage.education.enable }}
-<section id="education" class="section section--border-bottom rad-animation-group">
+<section id="teaching" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
-                <h2>{{ i18n "education_title" }}</h2>
-                 <p class="lead" >A core principal in my teaching concerns enabling students to develop their interests and skills. By supporting students in following up on their own ideas we can cultivate a critical research interest. This additionally instills confidence and offers a more thorough comprehension of the topic.
-                <br>
-                I teach in various courses in the AI and Computational Cognitive Science curricula. My teaching is primarily focused on various Machine Learing courses and courses related to Brain-Computer Interfaces, but also includes Cognitive Modelling with ACT-R. 
-                <br>
+                <div class="row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h2>{{ i18n "education_title" }}</h2>
+                         <p class="lead" >A core principal in my teaching concerns enabling students to develop their interests and skills. By supporting students in following up on their own ideas we can cultivate a critical research interest. This additionally instills confidence and offers a more thorough comprehension of the topic.
+                        <br>
+                        I teach in various courses in the AI and Computational Cognitive Science curricula. My teaching is primarily focused on various Machine Learing courses and courses related to Brain-Computer Interfaces, but also includes Cognitive Modelling with ACT-R. 
+                        <br>
 
-                My main pride is the Applied Machine Learning course (previously Machine Learning Practical), which I developed and teach myself. In this course students select a Machine Learning-based project, and develop this throughout the course. This gives them hands-on learning and allows them to develop in a direction of their interest. The course is open-ended, but students are specifically encouraged to learn the skills to prepare them to be AI-professionals. The lecture content I teach in this course is designed by considering my own experience as a student and later AI-professional and seeing what information I missed when I entered the labour market. By relating the educational material to my experience as an AI-professional students clearly see the relevance and what they want to study.
+                        My main pride is the Applied Machine Learning course (previously known as Machine Learning Practical), which I developed and teach myself. In this course students select a Machine Learning-based project, and develop this throughout the course. This gives them hands-on learning and allows them to develop in a direction of their interest. The course is open-ended, but students are specifically encouraged to learn the skills to prepare them to be AI-professionals. The lecture content I teach in this course is designed by considering my own experience as a student and later AI-professional and seeing what information I missed when I entered the labour market. By relating the educational material to my experience as an AI-professional students clearly see the relevance and what they want to study.
+                         </p>
+                    </div>
 
-                 </p>
+                    <div class="col-9 col-sm-9 col-md-4 col-lg-4 col-xl-4 profile-image">
+
+                      {{ $img := resources.Get .Site.Data.homepage.education.image.x }}
+                      {{ $img2x := resources.Get .Site.Data.homepage.education.image._2x }}
+
+                      {{ with $img }}
+                      {{ with $img2x}}
+                                  
+                      {{/* ⚠️ If the image is not found, it will not be displayed - this whole block will be skipped */}} 
+
+                      {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+                      {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+
+
+                      <picture>
+                        <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                        <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+                        <img
+                          width="{{ $img.Width }}"
+                          height="{{ $img.Height }}"
+                          class="lozad img-responsive"
+                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                          srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                          data-src="{{ $img.RelPermalink }}"
+                          data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                          alt='{{ i18n "showcase_image_alt" }}'
+                        />
+                      </picture>
+                      {{ end }}
+                      {{ end }}
+                    </div>
+
+                </div>
 
                 <div class="row pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.education.items }}

@@ -48,7 +48,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
   title = 'Ivo Pascal de Jong'
   description = 'Lecturer & PhD student - Uncertainty in Machine Learning & Brain-Computer Interfaces'
-  sections = ["showcase", "experience", "education"]
+  sections = ["showcase", "experience", "education", "about"]
 
   # If you want to display an image logo in the header, you can add it here
   # logo = '/img/hugo.svg'
@@ -93,17 +93,17 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     weight = 0
 
     [languages.en.menus]
-      # [[languages.en.menus.header]]
-      #   name = 'About'
-      #   URL = '#about'
-      #   weight = 2
       [[languages.en.menus.header]]
         name = "Research"
         URL = "#research"
-        weight = 3
+        weight = 2
       [[languages.en.menus.header]]
         name = "Teaching"
-        URL = "#education"
+        URL = "#teaching"
+        weight = 3
+      [[languages.en.menus.header]]
+        name = 'Publicity'
+        URL = '#publicity'
         weight = 4
 
       # [[languages.en.menus.header]]
@@ -118,8 +118,13 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
       [[languages.en.menus.footer]]
         name = "Teaching"
-        URL = "#education"
+        URL = "#teaching"
         weight = 4
+
+      [[languages.en.menus.footer]]
+        name = "Publicity"
+        URL = "#publicity"
+        weight = 5
 
       # [[languages.en.menus.footer]]
       #   name = "Research"

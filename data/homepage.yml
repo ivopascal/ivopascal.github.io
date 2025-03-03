@@ -28,15 +28,22 @@ showcase:
 about:
   enable: true
   button:
-    icon: "icon-user"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+   enable: false
+   icon: "icon-user"
+   URL: "https://www.linkedin.com/in/adrianmoreno/"
   image:
-    x: "images/about/user-picture.png"
-    _2x: "images/about/user-picture@2x.png"
+   x: "images/about/art_in_ai.jpeg"
+   _2x: "images/about/art_in_ai.jpeg"
 
 # education
 education:
   enable: true
+  image:
+    x: "images/teaching/graz_poster_talk.jpg"
+    _2x: "images/teaching/graz_poster_talk.jpg"
+  imageMobile:
+    x: "images/teaching/graz_poster_talk.jpg"
+
   items:
     - university: "Applied Machine Learning"
       year: "2023 - 2025"

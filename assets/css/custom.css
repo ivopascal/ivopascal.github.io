@@ -1,5 +1,5 @@
 .education::before {
-    content: "Hello!";
+    content: "";
     position: absolute;
     left: 90px;
     top: 0;
@@ -9,4 +9,8 @@
     background-color: #000 !important;
     -webkit-transform: skew(-20deg);
     transform: skew(-13deg);
+}
+
+.about__profile-picture {
+    margin-left: 0px !important;
 }
