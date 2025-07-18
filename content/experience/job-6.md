@@ -1,10 +1,10 @@
 ---
-date: 2022-12-01T00:00:00+01:00
+date: 2024-06-01T00:00:00+01:00
 draft: false
 title: ""
 jobTitle: "Unified Uncertainties: Combining Input, Data and Model Uncertainty into a Single Formulation"
 location: "Matias Valdenegro-Toro, Ivo Pascal de Jong, Marco Zullich"
-company: "arXiv preprint"
+company: "LXAI @ ICML"
 duration: "2024"
 companyLogo: ""
 

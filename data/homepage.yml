@@ -4,10 +4,10 @@
 showcase:
   enable: true
   image:
-    x: "images/showcase/tutorial_uq_image_cropped.jpeg"
-    _2x: "images/showcase/tutorial_uq_image_cropped.jpeg"
+    x: "images/showcase/uml_symposium_image.jpeg"
+    _2x: "images/showcase/uml_symposium_image.jpeg"
   imageMobile:
-    x: "images/showcase/tutorial_uq_image_cropped.jpeg"
+    x: "images/showcase/uml_symposium_image.jpeg"
 
   button:
     icon: "icon-email"

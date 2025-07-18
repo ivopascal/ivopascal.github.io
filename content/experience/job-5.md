@@ -1,10 +1,10 @@
 ---
-date: 2022-12-01T00:00:00+01:00
+date: 2024-09-02T00:00:00+01:00
 draft: false
 title: ""
 jobTitle: "Know what you do not know: Verbalized uncertainty estimation robustness on corrupted images in vision-language models"
 location: "Mirko Borszukovszki, Ivo Pascal de Jong, Matias Valdenegro-Toro"
-company: "arXiv preprint"
+company: "Trustworthy NLP @ NAACL"
 duration: "2025"
 companyLogo: ""
 

@@ -1,8 +1,8 @@
 ---
-date: 2022-12-01T00:00:00+01:00
+date: 2024-12-01T00:00:00+01:00
 draft: false
 title: ""
-jobTitle: "How disentangled are your classification uncertainties?"
+jobTitle: "Measuring Uncertainty Disentanglement Error in Classification"
 location: "Ivo Pascal de Jong, Andreea Ioana Sburlea, Matias Valdenegro-Toro"
 company: "arXiv preprint"
 duration: "2024"
