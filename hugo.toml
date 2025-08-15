@@ -71,8 +71,11 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   # and add the tracking code (UA-something for analytics, GTM-something for tag manager)
   [params.analytics.googleAnalytics]
       code = "UA-XXXXX-Y"
-      enabled = true
+      enabled = false
   [params.analytics.googleTagManager]
+      code = "G-5ZKB54TXSX"
+      enabled = false
+  [params.analytics.google_tag_manager]
       code = "G-5ZKB54TXSX"
       enabled = true
 
