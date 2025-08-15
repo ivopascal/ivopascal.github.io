@@ -73,8 +73,8 @@ path="github.com/zetxek/adritian-free-hugo-theme"
       code = "UA-XXXXX-Y"
       enabled = false
   [params.analytics.googleTagManager]
-      code = "GTM-XXXXX"
-      enabled = false
+      code = "G-5ZKB54TXSX"
+      enabled = true
 
 [build]
   [build.buildStats]
