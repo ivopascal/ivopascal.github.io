@@ -115,6 +115,10 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         name = 'Publicity'
         URL = '#publicity'
         weight = 4
+      [[languages.en.menus.header]]
+        name = 'Projects'
+        URL = '/Projects'
+        weight = 5
 
       # [[languages.en.menus.header]]
       #   name = "Contact"
