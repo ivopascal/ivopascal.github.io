@@ -1,15 +1,14 @@
 <!-- if you want to enable google tag manager you can check in your theme toml -->
 {{ if .Site.Params.analytics.google_tag_manager.enabled }}
-<!-- Google Tag Manager (noscript) -->
-<noscript
-  ><iframe
-    src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.analytics.google_tag_manager.id }}"
-    height="0"
-    width="0"
-    style="display: none; visibility: hidden"
-  ></iframe
-></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.Params.analytics.google_tag_manager.code}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', {{.Site.Params.analytics.google_tag_manager.code}});
+</script>
 {{ end }}
 
 {{ partial "skip-to-content.html" }}
