@@ -22,4 +22,9 @@ This page holds relevant documents. There's a CV, posters, conference abstracts 
 
 [Verbalized Uncertainty Estimation Robustness on Corrupted Images in Vision-Language Models poster]([poster_vlm_uncertainty.pdf]), presented at TrustNLP workshop at NAACL, by Mirko Borszukovszk. We explored the ability of large Vision-Language Models to indicate their uncertainty as part of their answer under damaged images. We found that these systems are consistently overconfident, especially in regression/counting tasks. The best models were the ones that would sometimes refuse to answer. This led to better calibrated uncertainties. 
 
+---
+
+## Other Documents
+
+[Academic Writing advice for Machine Learning](ML_writing_guide.pdf). I find myself giving the same writing advice to thesis students. In part this is because what is considered good writing is different per field. This document outlines some advice for writing Machine Learning theses and papers. It complies with common expecations in Machine Learning literature, but is of course also influenced by my own preferences. 
 
