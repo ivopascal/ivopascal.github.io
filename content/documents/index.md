@@ -28,3 +28,5 @@ This page holds relevant documents. There's a CV, posters, conference abstracts 
 
 [Academic Writing advice for Machine Learning](ML_writing_guide.pdf). I find myself giving the same writing advice to thesis students. In part this is because what is considered good writing is different per field. This document outlines some advice for writing Machine Learning theses and papers. It complies with common expecations in Machine Learning literature, but is of course also influenced by my own preferences. 
 
+---
+
