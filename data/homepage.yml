@@ -46,16 +46,16 @@ education:
 
   items:
     - university: "Applied Machine Learning"
-      year: "2023 - 2025"
+      year: "2023 - 2026"
       degree: "Design and develop the course setup and material, supervise teaching-assistants and teach lectures."
+
+    - university: "Neural Networks"
+      year: "2025 - 2026"
+      degree: "Update and adapt course setup and material, supervise teaching-assistants and teach lectures."
 
     - university: "Trustworthy & Explainable AI"
       year: "2024 - 2025"
       degree: "Develop and teach hands-on tutorial sessions."
-
-    - university: "Architectures of Intelligence"
-      year: "2024 - 2025"
-      degree: "Coordinate Teaching Assistants to ensure assignments are taught, graded and discussed."
 
     - university: "Uncertainty in Machine Learning"
       year: "2024 - 2025"
@@ -77,13 +77,13 @@ education:
       year: "2022-2025"
       degree: "Various guest or substitute lectures for Introduction to Machine Learning, Uncertainty in Machine Learning, Non-Invasive Brain-Computer Interfaces, Deep Learning, Deep Learning for Forestry, Machine Learning for Computational Cognitive Science, ..."
 
-    - university: "Python for Finance (Hogeschool van Amsterdam)"
-      year: "2022"
-      degree: "Develop course material, train other teachers, and teach students."
+    # - university: "Python for Finance (Hogeschool van Amsterdam)"
+    #   year: "2022"
+    #   degree: "Develop course material, train other teachers, and teach students."
 
-    - university: "SQL for Finance (Hogeschool van Amsterdam)"
-      year: "2022"
-      degree: "Design and develop course material and exam."
+    # - university: "SQL for Finance (Hogeschool van Amsterdam)"
+    #   year: "2022"
+    #   degree: "Design and develop course material and exam."
 
 # experience
 ## to hiden a button, set the icon to an empty string
